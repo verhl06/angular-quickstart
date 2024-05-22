@@ -1,0 +1,52 @@
+{
+  "quotes": [
+    {
+      "id": 0,
+      "image": "https://pbs.twimg.com/profile_images/939230803/mtqts1_black_400x400.jpg",
+      "title": "The \"Peter Principle\"",
+      "description": "In a hierarchy, every employee tends to rise to his level of incompetence.",
+      "link": "https://en.wikipedia.org/wiki/Peter_principle"
+    },
+    {
+      "id": 1,
+      "image": "https://pbs.twimg.com/profile_images/939230803/mtqts1_black_400x400.jpg",
+      "title": "Goodhart's law",
+      "description": "Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes.\nWhen a measure becomes a target, it ceases to be a good measure.",
+      "link": "https://en.wikipedia.org/wiki/Goodhart%27s_law"
+    },
+    {
+      "id": 2,
+      "image": "https://pbs.twimg.com/profile_images/939230803/mtqts1_black_400x400.jpg",
+      "title": "Parkinson's law",
+      "description": "Work expands so as to fill the time available for its completion.",
+      "link": "https://en.wikipedia.org/wiki/Parkinson%27s_law"
+    },
+    {
+      "id": 3,
+      "image": "https://pbs.twimg.com/profile_images/939230803/mtqts1_black_400x400.jpg",
+      "title": "Parkinson's law of triviality",
+      "description": "The time spent on any item of the agenda will be in inverse proportion to the sum [of money] involved.\n\nPeople within an organization commonly or typically give disproportionate weight to trivial issues.\n\n    A.k.a. the bike-shed effect: an average person cannot understand a complex problem, so one assumes that those who work on it understand it. but everyone can visualize a cheap, simple bicycle shed, so planning one can result in endless discussions because everyone involved wants to add a touch and show personal contribution.\n\n    Ambiguity aversion: a preference for known risks over unknown risks.",
+      "link": "https://en.wikipedia.org/wiki/Law_of_triviality"
+    },
+    {
+      "id": 4,
+      "image": "https://pbs.twimg.com/profile_images/939230803/mtqts1_black_400x400.jpg",
+      "title": "Gall's law",
+      "description": "A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over with a working simple system.\n\t\n\tZoals mijn eerdere chef altijd zei: je kunt beter een werkend systeem optimaliseren dan proberen een optimaal systeem werkend te krijgen.",
+      "link": "http://principles-wiki.net/principles:gall_s_law"
+    },
+    {
+      "id": 5,
+      "image": "https://pbs.twimg.com/profile_images/939230803/mtqts1_black_400x400.jpg",
+      "title": "Hofstadter's Law",
+      "description": "It always takes longer than you expect, even when you take into account Hofstadter's Law.",
+      "link": "https://en.wikipedia.org/wiki/Hofstadter%27s_law"
+    },
+    {
+      "id": 6,
+      "image": "https://pbs.twimg.com/profile_images/939230803/mtqts1_black_400x400.jpg",
+      "title": "Brooks's law",
+      "description": "According to Brooks, under certain conditions, an incremental person when added to a project makes it take more, not less time.",
+      "link": "https://en.wikipedia.org/wiki/Brooks%27s_law"
+    }]
+}

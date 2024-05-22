@@ -1,0 +1,22 @@
+<p>random-quote works!</p>
+<br>
+<div class="container quote-container">
+  <div class="row" *ngIf="randomQuote" >
+    <div class="col-md-3 col-12 mb-3 mb-md-0">
+      <img class="img-fluid quote-image" [src]="randomQuote.image" alt="Quote Image">
+    </div>
+    <div class="col-md-7 col-12">
+      <div class="quote-details">
+        <h2 class="quote-title" id="quoteTitle" [textContent]="randomQuote.title"></h2>
+        <p class="quote-description" id="quoteDescription" [textContent]="randomQuote.description"></p>
+        <p class="quote-link" id="quoteLink">
+          See: <a target="_blank" [href]="randomQuote.link">link</a>
+        </p>
+      </div>
+    </div>
+    <div class="col-md-2 col-12 text-md-right align-right">
+      <button type="button" class="btn btn-primary" id="nextButton" (click)="getRandomQuote()">Next</button>
+    </div>
+  </div>
+</div>
+

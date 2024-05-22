@@ -1,0 +1,10 @@
+<div class="d-flex justify-content-center flex-grow-1 p-2">
+    <div class="searchContainer">
+        <input type="text" id="searchInput" [(ngModel)]="searchterm" [placeholder]="placeholder">
+      <button id="searchButton" type="button" (click)="handleClick()">Search</button>
+    </div>
+</div>
+  <div *ngIf="searchterm as string">
+    <!-- Use myVariable within this container -->
+    <p>{{ searchterm }}</p>
+  </div>

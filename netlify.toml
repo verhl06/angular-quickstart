@@ -1,5 +1,5 @@
 [build]
-  command="ng build"
+  command="concurrently \"ng build\" \"json-server --watch db.json\""
   publish="dist/angular-quickstart"
 
 [[redirects]]
