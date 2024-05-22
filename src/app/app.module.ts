@@ -8,6 +8,10 @@ import { RandomQuoteComponent } from './components/random-quote/random-quote.com
 import { HeaderComponent } from './components/header/header.component';
 import { SearchComponent } from './components/search/search.component';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import {QuoteDetailsComponent} from './components/quote-details/quote-details.component';
+import {TableComponent} from './components/table/table.component';
+import {QuoteComponent} from './components/quote/quote.component';
 
 @NgModule({
   declarations: [
@@ -15,12 +19,16 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     RandomQuoteComponent,
     HeaderComponent,
-    SearchComponent
+    SearchComponent,
+    QuoteDetailsComponent,
+    TableComponent,
+    QuoteComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

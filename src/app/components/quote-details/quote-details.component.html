@@ -1,0 +1,19 @@
+<br>
+<div class="container quote-container">
+  <div class="row" *ngIf="quote">
+    <div class="col-md-3 col-12 mb-3 mb-md-0">
+      <img class="img-fluid quote-image" [src]="quote.image" alt="Quote Image">
+    </div>
+    <div class="col-md-7 col-12">
+      <div class="quote-details">
+        <h2 class="quote-title" id="quoteTitle" [textContent]="quote.title"></h2>
+        <p class="quote-description" id="quoteDescription" [textContent]="quote.description"></p>
+        <p class="quote-link" id="quoteLink">
+          See: <a target="_blank" [href]="quote.link">link</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+

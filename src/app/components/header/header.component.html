@@ -1,7 +1,7 @@
 <div class="container wide-header">
     <nav class="navbar navbar-expand-md blue-bg">
       <a class="navbar-brand p-2 white-fg" href="/">Laws & Whispers</a>
-      <app-search placeholder="ds" (search)="handleSearch($event)" ></app-search>
+      <app-search placeholder="" (search)="handleSearch($event)" ></app-search>
       <div class="p-2">
         <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -14,9 +14,6 @@
           </li>
           <li class="nav-item p-1">
             <button routerLink="/table">Table</button>
-          </li>
-          <li class="nav-item p-1">
-            <button *ngIf="+'1' === 1" routerLink="/beheer">Link</button>
           </li>
         </ul>
       </div>
